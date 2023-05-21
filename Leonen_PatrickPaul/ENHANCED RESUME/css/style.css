@@ -1,0 +1,297 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .Photo { grid-area: 1 / 1 / 2 / 2; }
+    .ABOUTME { grid-area: 2 / 1 / 3 / 2; }
+    .RESUME { grid-area: 3 / 1 / 4 / 2; }
+    .PORTFOLIO { grid-area: 4 / 1 / 5 / 2; }
+    .CONTACT { grid-area: 5 / 1 / 6 / 2; }
+    .div6 { grid-area: 1 / 2 / 2 / 6; }
+    .div7 { grid-area: 2 / 2 / 6 / 6; }
+ 
+    body {
+        background-color: rgb(197, 197, 197);
+    }
+
+
+    .parent {
+        margin: 30px;
+        background-color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+
+    .mphoto {
+       width: fit-content;
+       margin-left: 27px;
+       margin-right: auto;
+       height: 190px;
+       
+    }
+
+    .Photo {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+        border: solid rgb(0, 0, 0);
+        background-color:rgba(240, 248, 255, 0.986);
+        align-items: center;
+        width: 250px;
+        height: 250px;
+    }
+
+    .ABOUTME {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+        border: solid darkgoldenrod;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+       background-image: url(https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png);
+       background-size: contain;
+    }
+
+    .ABOUTME h3 {
+       
+        border-bottom-left-radius: 99%;
+        border-bottom-right-radius: 99%;
+        width: 55%;
+        text-align: center;
+        margin-top: 195px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(136, 134, 124);
+        height: 45px;
+        padding-top: 4px;
+        font-family: Courier New;
+        font-size: 21px;
+    }
+
+    .RESUME {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+        border: solid rgba(0, 0, 0, 0.61);
+        
+        align-items: center;
+        width: 250px;
+        height: 250px;
+       background-image: url(https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/suitcase.png);
+       background-size: contain;
+    }
+
+    .PORTFOLIO {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+        border: solid rgba(0, 0, 0, 0.61);
+        
+        align-items: center;
+        width: 250px;
+        height: 250px;
+       background-image: url(https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg);
+       background-size: 250px;
+    }
+
+    .CONTACT {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+        border: solid rgba(0, 0, 0, 0.61);
+        
+        align-items: center;
+        width: 250px;
+        height: 250px;
+       background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/720/476/small/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg);
+       background-size: 220px;
+    }
+
+    .RESUME h3 {
+        border-bottom-left-radius: 99%;
+        border-bottom-right-radius: 99%;
+        width: 55%;
+        text-align: center;
+        margin-top: 195px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(136, 134, 124);
+        height: 45px;
+        padding-top: 4px;
+        font-family: Courier New;
+        font-size: 21px;
+    }
+
+    .PORTFOLIO h3 {
+        border-bottom-left-radius: 99%;
+        border-bottom-right-radius: 99%;
+        width: 55%;
+        text-align: center;
+        margin-top: 195px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(136, 134, 124);
+        height: 45px;
+        padding-top: 4px;
+        font-family: Courier New;
+        font-size: 21px;
+    }
+
+    .CONTACT h3 {
+        border-bottom-left-radius: 99%;
+        border-bottom-right-radius: 99%;
+        width: 55%;
+        text-align: center;
+        margin-top: 195px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(136, 134, 124);
+        height: 45px;
+        padding-top: 4px;
+        font-family: Courier New;
+        font-size: 21px;
+    }
+
+    .ABOUTME h3:hover {
+        background-color: darkgoldenrod;
+        animation:alternate-reverse;
+        transition: 70ms;
+        color: black;
+    }
+
+    .RESUME h3:hover {
+        background-color: darkgoldenrod;
+        animation:alternate-reverse;
+        transition: 70ms;
+        color: black;
+    }
+
+    .PORTFOLIO h3:hover {
+        background-color: darkgoldenrod;
+        animation:alternate-reverse;
+        transition: 70ms;
+        color: black;
+    }
+
+    .CONTACT h3:hover {
+        background-color: darkgoldenrod;
+        animation:alternate-reverse;
+        transition: 70ms;
+        color: black;
+    }
+
+    .ABOUTME a {
+        text-decoration: none;
+        color: azure;
+    }
+
+    .RESUME a {
+        text-decoration: none;
+        color: azure;
+    }
+
+    .PORTFOLIO a {
+        text-decoration: none;
+        color: azure;
+    }
+
+    .CONTACT a {
+        text-decoration: none;
+        color: azure;
+    }
+
+
+    .div7 {
+        background-color:rgba(240, 248, 255, 0.986);
+        border: solid black;
+    }
+
+    .div6 {
+        text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            border: solid black;
+        background-color: darkgoldenrod;
+    }
+    
+    
+    
+    .div6 h1 {
+        font-family:'Segoe UI';
+        font-size: 70px;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    
+    .div6 h4 {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    
+    h4 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgba(0, 0, 0, 0.815);
+        color: azure;
+    }
+    
+    .group {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+        
+    h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: rgba(255, 228, 196, 0.849);
+    }
+
+    .img1 {
+        display: block;
+        
+       height: 500px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border: solid rgba(26, 26, 27, 0.658);
+        border-style:double 30px;
+        border-width: 3px;
+       
+    }
+
+
+    figure {
+        text-align: center;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.63);
+        color: azure;
+    }
+
+    .container-sm {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: justify;
+        margin-left: 30%;
+        margin-right: 30%;
+        display: block;
+    }
+
+    .info {
+        background-color: beige;
+        background-size: contain;
+    }
+    
+        
+        
+    
+
+    
