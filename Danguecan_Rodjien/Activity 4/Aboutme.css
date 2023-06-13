@@ -1,0 +1,13 @@
+.clearfix::after {
+    text-align: center;
+  }
+
+
+h1{
+text-align: center;
+}
+
+.content-box{
+    height: 50vh;
+    font-size: 30px;
+}
