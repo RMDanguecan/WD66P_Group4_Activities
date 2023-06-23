@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:375px) {
+    
+}
+
+/* @media only screen and (min-width:768px) and (max-width:1299px) {
+
+} */
+
+@media only screen and (min-width:992px) and (max-width:1299px) {
+    
+}
+
+@media only screen and (min-width:1300px) {
+    main {
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+        background-size: cover;
+        position: fixed;
+    }
+
+    .loginform {
+        width: 100%;
+        height: auto;
+    }
+
+    .logininner {
+        padding: 20px;
+        background: linear-gradient(15deg, #31948398 0%, #289c8fa9 100%);
+        border-radius: 20px;
+    }
+
+    form {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.199);
+        border-radius: 20px;
+
+    }
+
+    .remind {
+        font-size: smaller;
+        opacity: 70%;
+    }
+
+    .register {
+        color: azure;
+        transition: 300ms;
+    }
+
+    .register:hover {
+        color: black;
+    }
+
+    .entry{
+        color: azure;
+    }
+
+    .loginbody {
+        width: 500px;
+        margin-top: 9%;
+        margin-left: 60%;
+    }
+    
+}
