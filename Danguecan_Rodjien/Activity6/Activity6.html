@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Login Page</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-    .container {
-      position: relative;
-      max-width: 400px;
-      margin: 0 auto;
-      margin-top: 100px;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-  </style>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            position: relative;
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <h2 class="text-center">Account Login</h2>
+    <div class="container">
+        <h2 class="text-center">Account Login</h2>
 
-    <div id="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none;">
-      Please enter both email address and password.
-      <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+        <div id="errorMessage" class="alert alert-danger" role="alert" style="display: none;">
+            Please enter both email address and password.
+        </div>
+
+        <div id="invalidMessage" class="alert alert-danger" role="alert" style="display: none;">
+            Email address and password do not match.
+        </div>
+
+        <div id="successMessage" class="alert alert-success" role="alert" style="display: none;">
+            Login successful!
+        </div>
+
+        <br />
+        <form id="loginForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="username">Email address:</label>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="blurred-text">We'll never share your email with anyone else</div>
+            <br />
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" id="loginBtn" class="btn btn-primary">Login</button>
+        </form>
+
+        <p class="register-link"><a href="#">Register your account</a></p>
+
+        <script src="script.js"></script>
     </div>
-  <br/>
-    <form id="loginForm">
-      <div class="form-group">
-        <label for="username">Email address:</label>
-        <input type="text" id="username" name="username" class="form-control" placeholder="Enter your email" required>
-      </div>  
-      <div class="blurred-text">We'll never share your email with anyone else</div>
-      <br/>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
-      </div>
-
-      <button type="submit" id="loginBtn" class="btn btn-primary">Login</button>
-    </form>
-    
-    <p class="register-link"><a href="#">Register your account</a></p>
-
-    <script src="script.js"></script> 
-
-  </div>
 </body>
+
 </html>
