@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+    background-size: cover;
+}
+
+.logo {
+    width: 100px;
+}
+
+.loginform {
+    width: 100%;
+    height: 100%;
+}
+
+.tagline {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.color {
+    color: rgb(5, 150, 77);
+}
+
+.logininner {
+    padding: 20px;
+    background: linear-gradient(15deg, #31948398 0%, #289c8fa9 100%);
+    border-radius: 20px;
+}
+
+form {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+
+}
+
+.remind {
+    font-size: smaller;
+    opacity: 70%;
+}
+
+.register {
+    color: azure;
+    transition: 300ms;
+}
+
+.register:hover {
+    color: black;
+}
+
+.entry{
+    color: azure;
+}
+
+.loginbody {
+    padding: 20px;
+}
+
+.email {
+    width: 50%;
+}
+
+.foot {
+    text-align: center;
+}
+
+.motto {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.allreserved {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+footer {
+    color: azure;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    background-size: cover;
+    font-family: serif;
+    width: 100%;
+}
+
+.logofoot {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.separator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.email {
+    width: 100%;
+}
+
+.motto {
+    text-align: center;
+}
+
+.allreserved {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:375px) {
+    
+    
+}
+
+/* @media only screen and (min-width:768px) and (max-width:1299px) {
+
+} */
+
+@media only screen and (min-width:992px) and (max-width:1299px) {
+    main {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+        background-size: cover;
+    }
+
+    .loginform {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tagline {
+        width: 500px;
+        margin-top: 2%;
+        margin-bottom: 7%;
+        margin-left: 13%;
+        font-size: 500%;
+        color: aliceblue;
+        text-align: justify;
+    }
+
+    .color {
+        color: rgb(5, 150, 77);
+    }
+
+    .logininner {
+        padding: 20px;
+        background: linear-gradient(15deg, #31948398 0%, #289c8fa9 100%);
+        border-radius: 20px;
+    }
+
+    form {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.199);
+        border-radius: 20px;
+
+    }
+
+    .remind {
+        font-size: smaller;
+        opacity: 70%;
+    }
+
+    .register {
+        color: azure;
+        transition: 300ms;
+    }
+
+    .register:hover {
+        color: black;
+    }
+
+    .entry{
+        color: azure;
+    }
+
+    .loginbody {
+
+        align-items: center;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-right: 3%;
+        width: 500px;
+        height: 100%;
+    }
+
+    .email {
+        width: 50%;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+
+    .motto {
+        text-align: center;
+    }
+    
+    .allreserved {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .logofoot {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    main {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+        background-size: cover;
+    }
+
+    .loginform {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tagline {
+        width: 500px;
+        margin-top: 2%;
+        margin-bottom: 7%;
+        margin-left: 13%;
+        font-size: 600%;
+        color: aliceblue;
+        text-align: justify;
+    }
+
+    .color {
+        color: rgb(5, 150, 77);
+    }
+
+    .logininner {
+        padding: 20px;
+        background: linear-gradient(15deg, #31948398 0%, #289c8fa9 100%);
+        border-radius: 20px;
+    }
+
+    form {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.199);
+        border-radius: 20px;
+
+    }
+
+    .remind {
+        font-size: smaller;
+        opacity: 70%;
+    }
+
+    .register {
+        color: azure;
+        transition: 300ms;
+    }
+
+    .register:hover {
+        color: black;
+    }
+
+    .entry{
+        color: azure;
+    }
+
+    .loginbody {
+
+        align-items: center;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        margin-right: 3%;
+        width: 38%;
+        height: 100%;
+    }
+
+    .email {
+        width: 50%;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+
+    .motto {
+        text-align: center;
+    }
+    
+    .allreserved {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .logofoot {
+        display: block;
+    }
+    
+    
+}

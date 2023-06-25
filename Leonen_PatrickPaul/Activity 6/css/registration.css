@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #01927a 0%, #05ffb4f5 100%);
+    background-size: cover;
+}
+
+.logo {
+    width: 70px;
+}
+
+.loginform {
+    width: 100%;
+    height: 100%;
+}
+
+.tagline {
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.color {
+    color: rgb(252, 235, 7);
+}
+
+.logininner {
+    padding: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 20px;
+}
+
+form {
+        color: aliceblue;
+        padding: 10px;
+        background-color: rgba(23, 129, 71, 0.438);
+        border-radius: 20px;
+
+}
+
+.remind {
+    font-size: smaller;
+    opacity: 70%;
+    float: right;
+}
+
+.register {
+    color: azure;
+    transition: 300ms;
+}
+
+.register:hover {
+    color: black;
+}
+
+.entry{
+    color: azure;
+}
+
+.loginbody {
+    padding: 0px;
+    
+}
+
+.email {
+    width: 50%;
+}
+
+.foot {
+    text-align: center;
+}
+
+.motto {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.allreserved {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    color: azure;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    background-size: cover;
+    font-family: serif;
+    width: 100%;
+}
+
+.logofoot {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.separator {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.email {
+    width: 100%;
+}
+
+.motto {
+    text-align: center;
+}
+
+.allreserved {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:375px) {
+    
+    
+}
+
+/* @media only screen and (min-width:768px) and (max-width:1299px) {
+
+} */
+
+@media only screen and (min-width:992px) and (max-width:1299px) {
+    main {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #01927a 0%, #05ffb4f5 100%);
+        background-size: cover;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .loginform {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tagline {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 100%;
+        font-size: 500%;
+        color: aliceblue;
+        text-align: justify;
+    }
+
+    .color {
+        color: rgb(252, 235, 7);
+    }
+
+    .logininner {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    form {
+        color: aliceblue;
+        padding: 20px;
+        background-color: rgba(23, 129, 71, 0.438);
+        border-radius: 20px;
+    }
+
+    .remind {
+        font-size: smaller;
+        opacity: 70%;
+        float: right;
+    }
+
+    .register {
+        color: azure;
+        transition: 300ms;
+    }
+
+    .register:hover {
+        color: black;
+    }
+
+    .entry{
+        color: azure;
+    }
+
+    .loginbody {
+        display: flex;
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 50%;
+        height: auto;
+    }
+
+    .email {
+        width: 50%;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+
+    .motto {
+        text-align: center;
+    }
+    
+    .allreserved {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .logofoot {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    main {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #01927a 0%, #05ffb4f5 100%);
+        background-size: cover;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .loginform {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tagline {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 100%;
+        font-size: 500%;
+        color: aliceblue;
+        text-align: justify;
+    }
+
+    .color {
+        color: rgb(252, 235, 7);
+    }
+
+    .logininner {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    form {
+        color: aliceblue;
+        padding: 20px;
+        background-color: rgba(23, 129, 71, 0.438);
+        border-radius: 20px;
+    }
+
+    .remind {
+        font-size: smaller;
+        opacity: 70%;
+        float: right;
+    }
+
+    .register {
+        color: azure;
+        transition: 300ms;
+    }
+
+    .register:hover {
+        color: black;
+    }
+
+    .entry{
+        color: azure;
+    }
+
+    .loginbody {
+        display: flex;
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/06/02/42/laptop-5547838_1280.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 50%;
+        height: auto;
+    }
+
+    .email {
+        width: 50%;
+    }
+    
+    .foot {
+        text-align: center;
+    }
+
+    .motto {
+        text-align: center;
+    }
+    
+    .allreserved {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .logofoot {
+        display: block;
+    }
+    
+    
+}
