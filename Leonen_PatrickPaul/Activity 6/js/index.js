@@ -7,7 +7,6 @@ function login() {
 
     if (adminInput === localUsername && passwordInput === localPassword) {
         showAlert("success", "Successfully Login");
-        window.location.href = "registration.html";
     } else if (adminInput == "" | passwordInput === ""){
         showAlert("warning", "Please Input Username and Password");
     } else if(adminInput !== localUsername | passwordInput !== localPassword){
