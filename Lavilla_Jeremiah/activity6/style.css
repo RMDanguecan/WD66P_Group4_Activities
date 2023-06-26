@@ -1,0 +1,48 @@
+.card {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome1 {
+    background-color: black;
+    border: 1px;
+}
+.account {
+    text-align: center;
+}
+
+.btn {
+    
+    border-color: black;
+}
+
+.form-control {
+    width: 510px;
+}
+
+.card1 {
+    width: auto;
+    height: 500px;
+}
+
+
+.col1 {
+    display: inline-block;
+    padding-right: 20px;
+    width: 530px;
+
+}
+
+.create {
+    text-align: center;
+}
+
+.btn {
+    width: 500px;
+}
+
+.check {
+    text-align: right;
+}
