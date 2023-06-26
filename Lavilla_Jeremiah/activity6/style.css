@@ -1,24 +1,48 @@
 .card {
-    margin: auto;
-    margin-top: 250px;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.body {
+.welcome1 {
     background-color: black;
+    border: 1px;
 }
-
 .account {
- text-align: center;
+    text-align: center;
 }
 
-.welcome {
-    background-color: lightgray;
-    margin: 0px;
-    padding-top: 20px;
-    padding-left: 10px;
+.btn {
+    
     border-color: black;
 }
 
-.card-body {
-    padding: 10px;
+.form-control {
+    width: 510px;
+}
+
+.card1 {
+    width: auto;
+    height: 500px;
+}
+
+
+.col1 {
+    display: inline-block;
+    padding-right: 20px;
+    width: 530px;
+
+}
+
+.create {
+    text-align: center;
+}
+
+.btn {
+    width: 500px;
+}
+
+.check {
+    text-align: right;
 }
